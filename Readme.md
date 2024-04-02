@@ -1,7 +1,7 @@
 ## SubnetFunction
 Writing a contract and depploying it in mysubnet network using Avalanche CLI.
 
-Description
+# Description
 This Solidity code provides implementations for two contracts: ERC20 and Vault.
 
 - ERC20 Contract: This contract represents a basic ERC20 token with functionalities like transferring tokens, approving spending limits, and checking balances. Here's a breakdown of its components:
