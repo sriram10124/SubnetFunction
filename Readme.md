@@ -68,7 +68,7 @@ To deploy the subnet, run this command:
     avalanche subnet deploy mySubnet
 
 # Connection to Metamask:
-- Note the RPC URL id , ChainId (7177) , Token symbol (BMW)
+- Note the RPC URL , ChainId (7177) , Token symbol (BMW)
 - Add a new network (Subnet) manually in your metamask wallet.
 - To obtain test tokens use your private key and suffcient amount tokens will be minted to your account. 
 
@@ -77,5 +77,5 @@ U Sriram
 
 usriram186@gmail.com
 
-License
+# License
 This project is licensed under the MIT License - see the LICENSE.md file for details
