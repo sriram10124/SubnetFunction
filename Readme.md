@@ -1,5 +1,5 @@
 ## SubnetFunction
-Writing a contract and depploying it in mysubnet network using Avalanche CLI.
+Writing a contract and deploying it in mysubnet network using Avalanche CLI.
 
 # Description
 This Solidity code provides implementations for two contracts: ERC20 and Vault.
