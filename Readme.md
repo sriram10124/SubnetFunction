@@ -6,7 +6,7 @@ This Solidity code provides implementations for two contracts: ERC20 and Vault.
 
 - ERC20 Contract: This contract represents a basic ERC20 token with functionalities like transferring tokens, approving spending limits, and checking balances. Here's a breakdown of its components:
 
-# State Variables:
+# State Variables
 
 - totalSupply: Tracks the total supply of tokens.
 - balanceOf: Maps addresses to their token balances.
@@ -16,7 +16,7 @@ This Solidity code provides implementations for two contracts: ERC20 and Vault.
 - Transfer: Fired upon token transfer between addresses.
 - Approval: Fired upon approval of spending limit between addresses.
   
-# Functions:
+# Functions
 - LockTransfer: Allows toggling the transfer functionality on/off through setting the lock variable.
 - transfer: Transfers tokens from the sender's address to a specified recipient.
 - approve: Approves a spender to spend a certain amount of tokens on behalf of the owner.
@@ -24,16 +24,17 @@ This Solidity code provides implementations for two contracts: ERC20 and Vault.
 - mint: Mints new tokens and assigns them to the sender's address.
 - burn: Destroys tokens from the sender's address.
 
-# Vault Contract: This contract serves as a vault for managing deposits and withdrawals of ERC20 tokens. Here's a breakdown of its components:
+# Vault Contract
+This contract serves as a vault for managing deposits and withdrawals of ERC20 tokens. Here's a breakdown of its components:
 
-# State Variables:
+# State Variables
 
 - token: Represents the ERC20 token contract address that the vault interacts with.
 - totalSupply: Tracks the total supply of shares (vault tokens).
 - balanceOf: Maps addresses to their share balances in the vault.
 - Constructor: Initializes the token address upon deployment.
 
-# Functions:
+# Functions
 - mint: Internal function to mint new shares and allocate them to an address.
 - burn: Internal function to burn shares from an address.
 - deposit: Allows users to deposit ERC20 tokens into the vault, minting vault shares in proportion to the deposited amount.
